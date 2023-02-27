@@ -1,0 +1,78 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+
+
+.bg{
+    background: linear-gradient(180.43deg, rgba(0,0,0,0.60) 0%, rgba(0,0,0,0.80) 100%),     url(bg-image.jpg);
+    height: 100vh; 
+    width: 100%;
+}
+
+.set{
+    width: 80%;
+}
+
+.more_info{
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+#container{
+    position: relative;
+    margin-top: 9%;
+}
+
+
+.adjustment
+{
+    width: 60%; 
+    height: 60%;
+    margin-left: 5%;
+}
+.adjustment2
+{
+    width: 50%;
+    height: 50%;
+    margin-left: 35%;
+}
+
+.bg_pic
+{
+    background-image: url(gray_pattern.png);
+    position: absolute;
+    height: 45%;
+    width: 38%;
+    margin-top: -10%;
+    margin-left: 55%;
+    margin-right: 15%;
+    padding: 3%;
+    justify-content: center;
+}
+.bg_pic2
+{
+    background-image: url(gray_pattern.png);
+    position: absolute;
+    height: 42%;
+    width: 38%;
+    padding: 3%;
+    justify-content: center;
+    margin-left: 12%;
+    margin-top:-15%;
+}
+
+
+.button
+{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0;
+}
+
+.image_1{
+    margin-top: 15%;
+}
+
+.greeting{
+    background-color: #814EBF;
+    background-image: url("grey_pattern1.png");
+}
